@@ -1,0 +1,7 @@
+- name: Hello Minion Sample
+  hosts: rhelminion
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello Minion!"
+
