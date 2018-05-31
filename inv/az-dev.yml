@@ -1,0 +1,25 @@
+## Location & Environment
+
+[dev:children]
+az-dev
+
+[TowerServers]
+ansible-master
+ansible-delegate01
+
+[az-dev:children]
+rhelminion
+windows
+centos
+Net-Akron
+
+[rhelminion]
+rhelminion00
+rhelminion01
+
+[centos]
+
+[windows]
+
+[Net-Akron]
+
